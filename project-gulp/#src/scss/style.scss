@@ -1,0 +1,19 @@
+body{
+    background: lime;
+    display: flex;
+}
+.main{
+    font-size: 20px;
+}
+span{
+    font-size: 2px;
+    @media(max-width: 767px){
+        font-size: 13px;
+    }
+}
+div{
+    font-size: 30px;
+    @media(max-width: 767px){
+        font-size: 13333px;
+    }
+}
